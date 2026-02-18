@@ -1,6 +1,9 @@
 const users = [
-    {id:1,name:"jina"},
-    {id:2,name:"roma"}
+    {id:1,name:"Jina"},
+    {id:2,name:"sarabjeet"},
+    {id:3,name:"Roma"}
 ]
-const names = users.map((user) => user.name)
-console.log(names);
+const username = users.map((user)=>{
+    return user.name
+})
+console.log(username);
